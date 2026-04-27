@@ -15,7 +15,7 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 - Bootstrap
 
 ## 📸 Live Demo
-https://github.com/talha-imtiaz2/http://127.0.0.1:5500/MT-portfolio/
+http://127.0.0.1:5500/
 
 ## 📂 Project Structure
 portfolio-website/
