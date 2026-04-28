@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Talha Imtiaz - MT Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain-overlay"></div>
+
+  <nav class="navbar navbar-expand-lg sticky-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <span class="brand-mark">T</span>
+        <span class="brand-text">TALHA IMTIAZ</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Toggle navigation">
+        <span class="toggler-icon"><span></span><span></span><span></span></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item ms-lg-3"><a class="nav-cta-btn" href="#contact">Contact Me</a></li>
+          <li class="nav-item ms-lg-2">
+            <button class="theme-toggle-btn" id="themeToggle" type="button" aria-label="Toggle dark and light mode">
+              <i class="fa-solid fa-moon toggle-icon toggle-moon"></i>
+              <i class="fa-solid fa-sun toggle-icon toggle-sun"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero-section">
+    <div class="container">
+      <div class="hero-layout">
+        <div class="hero-text-side">
+          <h1 class="hero-name reveal">
+            Talha<br /><span class="name-italic">Imtiaz</span>
+          </h1>
+
+          <div class="hero-typed reveal">
+            <span id="typed-text"></span><span class="cursor">_</span>
+          </div>
+
+          <p class="hero-quote reveal">
+            <span class="quote-bar"></span>
+            "I create user-focused web solutions that turn ideas into real impact."
+          </p>
+
+          <div class="hero-btns reveal">
+            <a href="#projects" class="btn-primary-mt">View Projects <i class="fa-solid fa-arrow-right ms-1"></i></a>
+            <a href="#contact" class="btn-outline-mt">Contact Me</a>
+          </div>
+
+          <div class="hero-stats reveal">
+            <div class="hst"><strong>2</strong><span>Featured Projects</span></div>
+            <div class="hst-sep"></div>
+            <div class="hst"><strong>6th</strong><span>Semester</span></div>
+            <div class="hst-sep"></div>
+            <div class="hst"><strong>BS CS</strong><span>Degree</span></div>
+          </div>
+        </div>
+
+        <div class="hero-photo-side reveal">
+          <div class="photo-container">
+            <img src="images/profile.jpeg" alt="Talha Imtiaz" class="profile-img" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <div class="scroll-mouse"><div class="scroll-ball"></div></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <section id="about" class="section-pad">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-5 reveal">
+          <h2 class="s-heading">About Me</h2>
+        </div>
+        <div class="col-lg-7 reveal">
+          <p class="body-p">
+            I'm <strong>Talha Imtiaz</strong>, a <mark class="hl">CS student</mark> and Frontend Developer passionate about solving real-world problems through intuitive, user-focused web experiences. I aim to build digital solutions that are simple, effective, and impactful.
+          </p>
+          <div class="about-hidden-meta">
+            <span><i class="fa-solid fa-graduation-cap"></i> BS IT - 6th Sem</span>
+            <span><i class="fa-solid fa-layer-group"></i> 2 Featured Projects</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certificates" class="section-pad section-alt">
+    <div class="container">
+      <h2 class="s-heading reveal">Certificates</h2>
+      <div class="row gy-4 mt-4 certificates-grid">
+        <div class="col-md-6 reveal">
+          <div class="certificate-card">
+            <div class="certificate-logo smit-logo">PDF</div>
+            <h3>Certificate 1</h3>
+            <a href="images/certificate 1.pdf" target="_blank" class="certificate-meta">Open It</a>
+          </div>
+        </div>
+        <div class="col-md-6 reveal">
+          <div class="certificate-card">
+            <div class="certificate-logo placeholder-logo">PDF</div>
+            <h3>Certificate 2</h3>
+            <a href="images/Certificate 2.pdf" target="_blank" class="certificate-meta">Open It</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section-pad">
+    <div class="container">
+      <h2 class="s-heading reveal">Projects</h2>
+      <div class="projects-stack mt-4">
+        <article class="proj-card proj-split reveal">
+          <div class="proj-media">
+            <div class="proj-image-wrap">
+              <img
+                src="images/pesticide company.png"
+                alt="Bioforce Chemical Smart Agro project screenshot"
+                class="proj-shot proj-shot-clear"
+              />
+            </div>
+          </div>
+          <div class="proj-content">
+            <span class="proj-category">Frontend Development</span>
+            <h3>Bioforce Chemical Smart Agro</h3>
+            <p class="proj-intro">A polished agriculture-focused business website built to present products, services, and brand credibility through a clean and professional interface.</p>
+            <div class="tech-tags">
+              <span>HTML5</span><span>CSS3</span><span>Bootstrap</span>
+            </div>
+            <a href="#contact" class="proj-btn">View Project</a>
+          </div>
+        </article>
+
+        <article class="proj-card proj-split reveal">
+          <div class="proj-media">
+            <div class="proj-image-wrap">
+              <img
+                src="images/Burgermhfl.png"
+                alt="Burger Mehfil fast food project screenshot"
+                class="proj-shot proj-shot-clear"
+              />
+            </div>
+          </div>
+          <div class="proj-content">
+            <span class="proj-category">Frontend Development</span>
+            <h3>Burger Mehfil</h3>
+            <p class="proj-intro">A fast food website concept designed to showcase menu items, promotions, and ordering flow with a bold and appetizing visual style.</p>
+            <div class="tech-tags">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+            <a href="#contact" class="proj-btn">View Project</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section-pad section-alt">
+    <div class="container">
+      <h2 class="s-heading reveal">Skills</h2>
+      <div class="row gy-4 mt-4 skills-grid">
+        <div class="col-sm-6 col-lg-4 col-xl-3 reveal">
+          <div class="skill-tile html5">
+            <div class="skill-tile-icon"><i class="fa-brands fa-html5"></i></div>
+            <h5>HTML5</h5>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 reveal">
+          <div class="skill-tile css3">
+            <div class="skill-tile-icon"><i class="fa-brands fa-css3-alt"></i></div>
+            <h5>CSS3</h5>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 reveal">
+          <div class="skill-tile javascript">
+            <div class="skill-tile-icon"><i class="fa-brands fa-js"></i></div>
+            <h5>JavaScript</h5>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 reveal">
+          <div class="skill-tile react">
+            <div class="skill-tile-icon"><i class="fa-brands fa-react"></i></div>
+            <h5>React</h5>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 reveal">
+          <div class="skill-tile python">
+            <div class="skill-tile-icon"><i class="fa-brands fa-python"></i></div>
+            <h5>Python</h5>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 reveal">
+          <div class="skill-tile flutter">
+            <div class="skill-tile-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <h5>Flutter</h5>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 reveal">
+          <div class="skill-tile mysql">
+            <div class="skill-tile-icon"><i class="fa-solid fa-database"></i></div>
+            <h5>MySQL</h5>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 reveal">
+          <div class="skill-tile figma">
+            <div class="skill-tile-icon"><i class="fa-brands fa-figma"></i></div>
+            <h5>Figma</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section-pad">
+    <div class="container">
+      <h2 class="s-heading reveal">Experience</h2>
+      <div class="timeline mt-5">
+        <div class="tl-item reveal">
+          <div class="tl-date-col"><span>May 2025 - Jan 2026</span></div>
+          <div class="tl-track"><div class="tl-dot"></div></div>
+          <div class="tl-card-col">
+            <div class="tl-card">
+              <h4>Frontend Developer Intern - Spark Asia, Rawalpindi</h4>
+              <p>Built responsive and user-friendly web interfaces, refined UI/UX quality, and contributed to cleaner frontend experiences across different screen sizes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-date-col"><span>Apr 2026 - 2027</span></div>
+          <div class="tl-track"><div class="tl-dot"></div></div>
+          <div class="tl-card-col">
+            <div class="tl-card">
+              <h4>Final Year Project - AI-Based Diagnostic App</h4>
+              <p>Currently developing an AI-based diagnostic mobile application using Flutter, focused on practical problem-solving, usability, and real-world healthcare impact.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section-pad">
+    <div class="container">
+      <h2 class="s-heading reveal">Contact</h2>
+      <div class="row gy-5 mt-3 align-items-start">
+        <div class="col-lg-5 reveal">
+          <div class="contact-links">
+            <a href="mailto:talhaimtiaz336@gmail.com" target="_blank" class="c-link">
+              <div class="c-icon email-i"><i class="fa-solid fa-envelope"></i></div>
+              <div><strong>Email</strong><span>talhaimtiaz336@gmail.com</span></div>
+              <i class="fa-solid fa-arrow-right c-arrow"></i>
+            </a>
+            <a href="tel:03012213636" class="c-link">
+              <div class="c-icon phone-i"><i class="fa-solid fa-phone"></i></div>
+              <div><strong>Phone</strong><span>03012213636</span></div>
+              <i class="fa-solid fa-arrow-right c-arrow"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/talha-imtiaz-307b543a6/" target="_blank" class="c-link">
+              <div class="c-icon li-i"><i class="fa-brands fa-linkedin"></i></div>
+              <div><strong>LinkedIn</strong><span>linkedin.com/in/talha-imtiaz-307b543a6</span></div>
+              <i class="fa-solid fa-arrow-right c-arrow"></i>
+            </a>
+            <a href="https://github.com/talha-imtiaz2" target="_blank" class="c-link">
+              <div class="c-icon gh-i"><i class="fa-brands fa-github"></i></div>
+              <div><strong>GitHub</strong><span>github.com/talha-imtiaz2</span></div>
+              <i class="fa-solid fa-arrow-right c-arrow"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-7 reveal">
+          <div class="contact-box">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="f-label">Your Name</label>
+                <input type="text" class="f-input" placeholder="e.g. Ahmed Ali" />
+              </div>
+              <div class="col-md-6">
+                <label class="f-label">Email Address</label>
+                <input type="email" class="f-input" placeholder="you@example.com" />
+              </div>
+              <div class="col-12">
+                <label class="f-label">Subject</label>
+                <input type="text" class="f-input" placeholder="What's this about?" />
+              </div>
+              <div class="col-12">
+                <label class="f-label">Message</label>
+                <textarea class="f-input" rows="5" placeholder="Your message here..."></textarea>
+              </div>
+              <div class="col-12">
+                <button class="btn-primary-mt w-100" onclick="handleFormSubmit(this)">
+                  Send Message <i class="fa-solid fa-paper-plane ms-2"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand">TalhaImtiaz</div>
+        </div>
+        <div class="footer-socials">
+          <a href="mailto:talhaimtiaz336@gmail.com" target="_blank" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/talha-imtiaz-307b543a6/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/talha-imtiaz2" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Talha Imtiaz</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast-msg">
+    <i class="fa-solid fa-circle-check"></i> Message sent! I'll get back to you soon.
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
