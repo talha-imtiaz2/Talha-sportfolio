@@ -15,10 +15,10 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 - Bootstrap
 
 ## 📸 Live Demo
-http://127.0.0.1:5500/
+https://talha-imtiaz2.github.io/Talha-sportfolio/
 
 ## 📂 Project Structure
-portfolio-website/
+talha'sportfolio/
 │── index.html
 │── style.css
 │── script.js
